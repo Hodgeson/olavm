@@ -839,6 +839,7 @@ dependencies = [
  "interpreter",
  "itertools",
  "log",
+ "ola-lang-abi",
  "plonky2",
  "rand",
  "regex",
@@ -1731,6 +1732,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9cf5f9dd3933bd50a9e1f149ec995f39ae2c496d31fd772c1fd45ebc27e902b0"
 dependencies = [
  "memchr",
+]
+
+[[package]]
+name = "ola-lang-abi"
+version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4134a646fc0d63e8d957fc65a014c83a4a1a9d5d622ba567fa33fdcd000b310d"
+dependencies = [
+ "anyhow",
+ "nom",
+ "regex",
+ "serde",
+ "serde_json",
+ "tiny-keccak",
 ]
 
 [[package]]
